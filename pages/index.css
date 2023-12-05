@@ -17,6 +17,10 @@
   padding: 30px 80px 40px;
   background-color: #FFFFFF;
   z-index: 1;
+  background-image: url(../images/background_header.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav {
@@ -117,6 +121,10 @@
   padding: 100px 80px 215px;
   background-color: #0a2750;
   color: #FFFFFF;
+  background-image: url(../images/background_recipes.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .recipes__videos {
@@ -149,4 +157,92 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+}
+
+.reservations {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 120px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservations__title {
+  margin: 0 0 80px;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservations__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+  border-radius: 4px;
+}
+
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__label {
+  margin-bottom: 32px;
+  display: block;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+}
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 8px;
+  height: 60px;
+}
+
+.form__button {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  height: 60px;
+  background-color: #2F80ED;
+  color: #FFFFFF;
+}
+
+.placeholder {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__checkbox {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+  font-family: Inter, Arial, sans-serif;;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }

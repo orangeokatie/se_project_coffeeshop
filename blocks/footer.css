@@ -33,7 +33,11 @@
 
 .footer__list-item {
   margin-bottom: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list-item:nth-of-type(2n) {
@@ -42,13 +46,17 @@
 
 .footer__social {
   margin: 0;
-  font-size: 16px;
 }
 
 .footer__social-heading {
   margin: 0 0 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
   font-size: 16px;
+  line-height: 20px;
 }
+
 .footer__social-link {
   color: white;
   text-decoration: none;

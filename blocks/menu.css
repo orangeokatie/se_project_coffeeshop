@@ -1,5 +1,6 @@
 .menu {
   padding: 100px 0 100px;
+  justify-content: center;
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -8,7 +9,8 @@
 
 .menu__title {
   text-align: center;
-  margin: 0 0 24px;
+  margin: 0 auto 24px;
+  max-width: 780px;
   font-family: "Inter";
   font-weight: 500;
   font-size: 44px;
@@ -17,7 +19,9 @@
 
 .menu__subtitle {
   text-align: center;
-  margin: 0 0 100px;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Noto Serif";
   font-size: 20px;
   line-height: 30px;

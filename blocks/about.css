@@ -39,7 +39,7 @@
 .about__content {
     max-width: 660px;
     gap: 20px;
-    margin: 119px auto 173px;
+    margin: 119px auto auto;
 }
 
 .about__paragraph {

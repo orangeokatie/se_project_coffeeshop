@@ -5,45 +5,41 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
-  padding: 30px 80px 40px;
   background-color: #FFFFFF;
   z-index: 1;
   background-image: url(../images/background_header.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
 }
 
 .header__title {
   max-width: 729px;
   font-size: 60px;
   line-height: 70px;
-  margin: 183px 0 0;
   letter-spacing: -0.6px;
   font-weight: 500;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
-  font-weight: 500;
   font-size: 60px;
-  line-height: 72px;
-  letter-spacing: -0.6px;
+  padding: 202px 80px 28px;
+  margin: 0;
 }
 
 .header__description {
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
-  margin: 28px 0 0;
-  font-family: "Noto Serif", 'Times New Roman', Times, serif;
+  font-family: "Noto Serif", Times, serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
+  margin: 0 80px 0;
 }
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif", 'Times New Roman', Times, serif;
+  font-family: "Noto Serif", Times, serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -55,7 +51,7 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
+  margin: auto 80px 40px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;

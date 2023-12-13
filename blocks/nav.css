@@ -5,15 +5,17 @@
 
   .nav__logo {
     position: relative;
-    left: -50px;
     width: 105px;
     height: 39px;
+    margin-top: 30px;
+    margin-left: 30px;
   }
 
   .nav__links {
     display: flex;
     padding: 0;
-    margin: 0;
+    margin-top: 30px;
+    margin-right: 80px;
     list-style-type: none;
     gap: 20px;
     font-family: "Inter", Arial, sans-serif;
@@ -26,5 +28,9 @@
   .nav__link {
     color: #000000;
     text-decoration: none;
+  }
+
+  .nav__link:hover {
+    color: #2f80ed;
   }
 

@@ -52,4 +52,5 @@
 
   .recipes__iframe:hover {
     opacity: 70%;
+    transition: opacity 0.3s linear;
   }

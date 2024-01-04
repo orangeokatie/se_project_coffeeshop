@@ -64,6 +64,7 @@
 
   .form__button:hover {
     opacity: 70%;
+    transition: opacity 0.3s linear;
   }
 
   .form__input::placeholder {
@@ -74,4 +75,5 @@
 
   .form__input:hover {
     opacity: 70%;
+    transition: opacity 0.3s linear;
   }

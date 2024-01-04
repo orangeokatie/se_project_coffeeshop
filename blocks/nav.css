@@ -32,5 +32,6 @@
 
   .nav__link:hover {
     color: #2f80ed;
+    transition: opacity 0.3s linear;
   }
 

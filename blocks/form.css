@@ -9,7 +9,6 @@
   }
 
   .form__label {
-    margin-bottom: 32px;
     display: block;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
@@ -22,6 +21,7 @@
     display: flex;
     justify-content: center;
     border-radius: 2px;
+    margin: auto;
   }
 
   .form__input {
@@ -38,7 +38,6 @@
   }
 
   .form__button {
-    margin-bottom: 32px;
     height: 60px;
     background: #2f80ed;
     width: 385px;
@@ -49,6 +48,7 @@
     padding: 0;
     opacity: 100%;
     transition: opacity 0.3s linear;
+    margin-bottom: 32px;
   }
 
   .form__checkbox {

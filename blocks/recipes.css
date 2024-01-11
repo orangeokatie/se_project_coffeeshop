@@ -48,8 +48,3 @@
   font-size: 20px;
   line-height: 30px;
 }
-
-.recipes__videos:hover {
-  opacity: 70%;
-  transition: opacity 0.3s linear;
-}
